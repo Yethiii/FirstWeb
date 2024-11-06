@@ -18,7 +18,7 @@ function validerPrenom($prenom)
 {
     if (!empty($prenom)) {
         $prenom = htmlspecialchars($prenom);
-        $nbchar = strlen($prenom);
+        $nbchar = mb_strlen($prenom);
         if ($nbchar >= 2 && $nbchar <= 255) {
             return "";
         } else {
