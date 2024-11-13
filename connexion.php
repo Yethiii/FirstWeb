@@ -14,5 +14,6 @@
     <button type=" submit">Connexion</button>
 
 </form>
+<p><a href="inscription.php">S'inscrire</a></p>
 
 <?php require_once __DIR__ . DIRECTORY_SEPARATOR . 'footer.php'; ?>
